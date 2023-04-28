@@ -1,0 +1,4 @@
+Student Id,Student Name,Department,Class,Leave Type,Leave From,Leave To,Application Status
+100002    ,First1 Middle1 Last1,MCOM,First Year MCOM,Leave Type,15-04-2023,27-04-2023,Approved
+100002    ,First1 Middle1 Last1,MCOM,First Year MCOM,Vaction Leave,14-04-2023,22-04-2023,Pending
+100002    ,First1 Middle1 Last1,MCOM,First Year MCOM,Marraige Leave,14-04-2023,22-04-2023,Pending

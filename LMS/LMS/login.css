@@ -1,0 +1,113 @@
+﻿body {
+  overflow-x: hidden; /* disable horizontal scrollbar */
+  overflow-y: hidden; /* disable vertical scrollbar */
+  background-color:  rgba(0, 128, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+.heading {
+  color: #333;
+  text-align: center;
+  margin-top: 60px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 25px;
+  font-weight:bolder;
+  
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 30px;
+  color:Black;
+  display:block;
+  
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  display:block;
+}
+
+.form-control:focus {
+  border-bottom-color: #4CAF50;
+}
+
+.form-label {
+
+  font-size: 18px;
+  color: black;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.form-control:focus + .form-label,
+.form-control:valid + .form-label {
+  font-size: 14px;
+  color: #4CAF50;
+}
+
+
+
+/*
+Admin Panel
+*/
+h2 
+{
+    margin-left:60px;
+    line-height:40px;
+}
+
+/* EVENT */
+
+.form-control1 {
+  width:20%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  display:block;
+  margin-left:60px;
+}
+
+
+
